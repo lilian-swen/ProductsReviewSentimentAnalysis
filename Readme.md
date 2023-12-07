@@ -1,20 +1,35 @@
+# Project Introduction
+
 Lilian Sun, 12/6/2023
+
+## Timeline 
+
+- **Start Date:** September 2023 
+- **End Date:** December 2023
+
+## Overview 
+
+The project commenced in September 2023 and successfully concluded in December 2023. It encompassed the creation of secure data lakes on Amazon S3, efficient data ingestion into SageMaker Studio, and comprehensive data exploration using AWS Data Wrangler. Biases were addressed through thorough profiling and SageMaker Clarify. Scaling feature engineering and hyperparameter tuning optimized model performance. The training and evaluation of models on SageMaker Autopilot resulted in the deployment of high-performing sentiment analysis models, continuously monitored for real-time accuracy. The README provides a succinct overview of the project's scope and achievements within this timeframe.
+
+## Project Documents
 
 **Project Paper:** Big Data Machine Learning System for Product Review Sentiment Analysis.pdf
 
 
 
-**The related documents are:**
+**The other related documents are:**
 
-1 code-data transformation & data profiling (data distribution)
+- 1 code-data transformation & data profiling (data distribution)
 
-2 code-data profiling (bias detection)
+- 2 code-data profiling (bias detection)
 
-3 code-hyperparameter tuning
+- 3 code-hyperparameter tuning
 
-4 code-model training and tuning on SageMaker Autopilot
+- 4 code-model training and tuning on SageMaker Autopilot
 
-Comparative Analysis of Technologies for the Big Data ML System-Yuanyuan Sun.xlsx
+- Comparative Analysis of Technologies for the Big Data ML System.xlsx
+
+
 
 **The artifacts of the directories**
 
@@ -23,4 +38,31 @@ Comparative Analysis of Technologies for the Big Data ML System-Yuanyuan Sun.xls
 - code scripts: Specifically, this refers to **.ipynb scripts**.
 - screenshot: Snapshots of the running status and results of the program on the AWS cloud services, where the big data machine learning system is built.
 
-The Excel spreadsheet contains comparative analysis plots manually created by Yuanyuan Sun. These plots are based on official resources and technological blogs.
+
+
+The Excel spreadsheet contains manually created comparative analysis plots based on official resources and technological blogs.
+
+
+
+## Toolkits
+
+1. **Amazon S3:**
+   - Established centralized and secure data lakes for efficient storage and retrieval of growing datasets.
+2. **Amazon SageMaker:**
+   - Ingested raw data into SageMaker Studio for development using S3 commands.
+   - Conducted feature engineering and hyperparameter tuning at scale.
+   - Deployed sentiment analysis models using SageMaker's hosting capabilities.
+3. **AWS Glue:**
+   - Organized and cataloged data within the S3 data lake, facilitating streamlined accessibility.
+   - Conducted data profiling to uncover key patterns and trends.
+4. **AWS Data Wrangler:**
+   - Executed SQL queries on Amazon Athena for in-depth exploration of datasets.
+5. **Matplotlib and Seaborn:**
+   - Created static, animated, and interactive visualizations to enhance dataset understanding.
+6. **SageMaker Clarify:**
+   - Detected statistical data biases, focusing on metrics such as class imbalance and Difference in Proportions of Labels (DPL).
+7. **Amazon Athena:**
+   - Used for additional data exploration and querying.
+8. **AutoML on SageMaker Autopilot:**
+   - Employed for training models with both built-in algorithms and custom BERT models.
+   - Evaluated models based on training accuracy and loss to optimize performance.
