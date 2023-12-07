@@ -66,3 +66,7 @@ The Excel spreadsheet contains manually created comparative analysis plots based
 8. **AutoML on SageMaker Autopilot:**
    - Employed for training models with both built-in algorithms and custom BERT models.
    - Evaluated models based on training accuracy and loss to optimize performance.
+
+## Why did I utlilize Amazon Glue and Amazon Athena in this project?
+
+When constructing highly intricate analytical queries to process not only gigabytes but potentially terabytes or petabytes of data, Athena eliminates concerns about compute and memory resources needed for supporting such queries. Athena seamlessly and automatically scales out, breaking down the query into simpler components that run in parallel against the extensive dataset.
